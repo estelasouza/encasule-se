@@ -1,0 +1,17 @@
+.cor-bg{
+    background-color: #ba68c8;
+}
+
+.img-principal{
+    object-fit: cover;
+    height: 400px;
+    opacity: 0.5;
+}
+.letra {
+    vertical-align: middle;
+    color: #d500f9 ;
+  }
+.logo-nav{
+    width: 50px;
+    height: 60px;
+}

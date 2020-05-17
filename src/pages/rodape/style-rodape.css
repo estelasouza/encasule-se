@@ -1,0 +1,21 @@
+.logo-rodape{
+        width: 70px;
+        height: 80px;
+        padding-top: 7px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+        
+
+}
+.bg-footer{
+    background-color: #ba68c8;
+    padding: 10px;
+    
+}
+.tam-img-rodape{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+
+}
