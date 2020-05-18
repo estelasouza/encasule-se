@@ -10,7 +10,7 @@ const NavBar = () => {
         <div >
             <nav className='cor-bg'>
                 <div className="cor-bg nav-wrapper container">
-                    <a href="#!" className="brand-logo"><img className='logo-nav' src={logo}/></a>
+                    <a className="brand-logo" onClick={() => history.push("/")><img className='logo-nav' src={logo}/></a>
                     <a href="#" data-target="mobile-demo" className="sidenav-trigger "><i className="material-icons">menu</i></a>
                     <ul className="right hide-on-med-and-down">
                         <li><a onClick={() => history.push("/")}>Projeto</a></li>

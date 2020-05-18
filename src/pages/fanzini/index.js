@@ -39,7 +39,7 @@ const Fanzini = () => {
                                                 <div class="row center-xs">
                                         <div class="col-xs-6">
                                             <div class="box">
-                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" onClick={() => history.push("/")}> Baixar</button>
+                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" onClick={() => history.push("/fanzini")}> Baixar</button>
                                             </div></div></div></div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ const Fanzini = () => {
                                                 <div class="row center-xs">
                                         <div class="col-xs-6">
                                             <div class="box">
-                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" onClick={() => history.push("/")} > Baixar</button>
+                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" onClick={() => history.push("/fanzini")} > Baixar</button>
                                             </div></div></div></div>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ const Fanzini = () => {
                                                 <div class="row center-xs">
                                         <div class="col-xs-6">
                                             <div class="box">
-                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" onClick={() => history.push("/")}> Baixar</button>
+                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" onClick={() => history.push("/fanzini")}> Baixar</button>
                                             </div> </div></div></div>
                             </div>
                         </div>
