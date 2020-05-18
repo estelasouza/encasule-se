@@ -40,8 +40,8 @@ const QuemSomos = () => {
                                 <div className="card-content">
                                     <span className="card-title activator grey-text text-darken-4">Ana Adélia<i className="material-icons right"></i></span>
                                     <p className='paragrafo-comum'>Recifence, assistente social </p>
-                                    <a href='' target='_blank'><img  className='tam-img-rodape' src={insta} /></a>
-                                    <a href='' target='_blank'><img  className='tam-img-rodape' src={linkedin} /></a>
+                                    <a href='https://www.instagram.com/aadeliar/' target='_blank'><img  className='tam-img-rodape' src={insta} /></a>
+                                    <a href='www.linkedin.com/in/ana-adélia-rodrigues-142059aa' target='_blank'><img  className='tam-img-rodape' src={linkedin} /></a>
 
                                 </div>
                             </div>
@@ -57,8 +57,8 @@ const QuemSomos = () => {
                                 <div className="card-content">
                                     <span className="card-title activator grey-text text-darken-4">Luana Bruzasco<i className="material-icons right"></i></span>
                                     <p className='paragrafo-comum'>Paulistana, especialista em direto da mulher</p>
-                                    <a href='' target='_blank'><img  className='tam-img-rodape' src={insta} /></a>
-                                    <a href='' target='_blank'><img  className='tam-img-rodape' src={linkedin} /></a>
+                                    <a href='https://www.luanabruzasco.com/dialogos' target='_blank'>site</a>
+                                    <a href='https://www.linkedin.com/in/luana-bruzasco-5889b3126/' target='_blank'><img  className='tam-img-rodape' src={linkedin} /></a>
                                 </div>
                             </div>
                         </div>
@@ -72,8 +72,7 @@ const QuemSomos = () => {
                                 <div className="card-content">
                                     <span className="card-title activator grey-text text-darken-4">Nathália Couto<i className="material-icons right"></i></span>
                                     <p className='paragrafo-comum'>Recifence, estudande de ensino médio</p>
-                                    <a href='' target='_blank'><img  className='tam-img-rodape' src={insta} /></a>
-                                    <a href='' target='_blank'><img  className='tam-img-rodape' src={linkedin} /></a>
+                                    <a href='https://www.instagram.com/nathaliaacouto/' target='_blank'><img  className='tam-img-rodape' src={insta} /></a>
                                 </div>
                             </div>
                         </div>

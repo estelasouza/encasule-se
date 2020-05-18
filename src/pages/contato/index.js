@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from '../navbar/index'
 import Rodape from '../rodape/index'
-import nena from '../assets/colaboradores/nena.jpg'
 import portoDigital from '../assets/colaboradores/porto-digital.png'
 import meteColher from '../assets/colaboradores/mete-colher.png'
 import portoMais from '../assets/colaboradores/portomais.png'
@@ -11,8 +10,14 @@ import youtube from '../assets/img-contato/youtube.png'
 import Banner from '../navbar/banner'
 import './style-contato.css'
 import '../style-geral.css'
+import face from '../assets/img-contato/facebook.png'
+
+import { useHistory } from "react-router-dom"
+
 
 const Contato = () => {
+
+    const history = useHistory()
     return (
         <>
             <NavBar />
@@ -41,50 +46,53 @@ const Contato = () => {
                     <div className="row center-xs">
                         <div className="col-xs-6">
                             <div className="box altura-bt">
-                                <button className=' centraliza-tex centraliza-bttwaves-effect purple lighten-2  btn-large ' type="button">Enviar</button>
+                                <button className=' centraliza-tex centraliza-bttwaves-effect purple lighten-2  btn-large ' type="button" onClick={() => history.push("/")} >Enviar</button>
 
                             </div>
                         </div>
                     </div>
                 </form>
-           
+
             </div>
             <div>
                 <h2 className='centraliza-h2'>Onde nos encontrar </h2>
                 <div className=" container">
-                <div className='row'>
-                <div className='col'>
-                
-                        <a href='https://www.instagram.com/encasule.se/' target='_blank'>   <img className='tamanho-img'src={insta}/></a>
-                            </div>
-                <div className='col'>
-                
-                <img className='tamanho-img' src={youtube}/>
-                </div></div> </div></div>
+                    <div className='row'>
+                        <div className='col'>
+
+                            <a href='https://www.instagram.com/encasule.se/' target='_blank'>   <img className='tamanho-img' src={insta} /></a>
+                        </div>
+                        <div className='col'>
+
+                        <a href='https://www.instagram.com/encasule.se/' target='_blank'> <img className='tamanho-img' src={youtube} /> </a>
+
+                        </div>
+                        <div className='col'>
+
+                        <a href='https://www.instagram.com/encasule.se/' target='_blank'>  <img className='tamanho-img' src={face} />
+                        </a></div>
+                    </div> </div></div>
 
 
 
             <h2 className='centraliza-h2'>Quem nos apoia </h2>
+            <div className='container'>
             <div className="container row center-xs">
-                <div className="col-xs-6">
-                    <div className="row around-xs">                
-
-                        <img className='rounded tam-img  float-left col' src={nena} /></div></div>
                 <div className="col">
                     <div className="box"> <img className=' tam-img loat-left col' src={portoDigital} /></div></div>
                 <div className="col">
-                    <div className="box">       
-                          <img className=' tam-img loat-left col' src={meteColher} />
+                    <div className="box">
+                        <img className=' tam-img loat-left col' src={meteColher} />
                     </div></div>
-                    <div className="col">
-                    <div className="box">       
-                          <img className=' tam-img loat-left col' src={portoMais} />
+                <div className="col">
+                    <div className="box">
+                        <img className=' tam-img loat-left col' src={portoMais} />
                     </div></div>
-                    <div className="col">
-                    <div className="box">       
-                          <img className=' tam-img loat-left col' src={minas} />
+                <div className="col">
+                    <div className="box">
+                        <img className=' tam-img loat-left col' src={minas} />
                     </div></div>
-            </div>
+            </div></div>
 
             <Rodape />
         </>

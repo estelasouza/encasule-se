@@ -23,9 +23,11 @@ const NavBar = () => {
             </nav>
         
             <ul class="sidenav cor-bg" id="mobile-demo">
-            <li><a href="index.html">Projeto</a></li>
-            <li><a href="#">Quem somos</a></li>
-            <li><a href="#">Contatos</a></li>
+            <li><a onClick={() => history.push("/")}>Projeto</a></li>
+            <li><a onClick={() => history.push("/quem-somos")} >Quem somos</a></li>
+            <li> <a onClick={() => history.push("/fanzini")}>Fanzini</a></li>
+            <li><a onClick={() => history.push("/quiz")}>Quiz</a></li>
+            <li><a onClick={() => history.push("/contato")}>Contatos</a></li>
         </ul>
         </div>
        

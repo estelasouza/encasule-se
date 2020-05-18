@@ -1,29 +1,28 @@
 import React, { useEffect } from 'react';
 import "./style.css"
 import NavBar from '../navbar/index'
-import background1 from '../assets/background4.jpg'
-import background2 from '../assets/background2.jpeg'
+import background1 from '../assets/background1.jpg'
 import background3 from '../assets/background3.jpg'
 import Rodape from '../rodape/index.js'
+import empoderamento from '../assets/img-contato/empoderamento.png'
+import prevencao from '../assets/img-contato/prevencao.png'
+import informacao from '../assets/img-contato/info.png'
 
 const Home = () => {
     return (
         <>
             <NavBar />
             <div id="index-banner" className="parallax-container">
-                <div className="section no-pad-bot">
-                    <div className="container">
-                        <h1 className="header center teal-text text-lighten-2">Informação</h1>
+
+                <div className="color-bg-1 section no-pad-bot d-flex">
+                    <div className="container d-flex flex-column flex-grow-1 justify-content-center ">
+                        <h1 className="cor header center ">ENCASULE-SE</h1>
                         <div className="row center">
-                            <h5 className="header col s12 light">Nosso objetivo é trazer informação de facil acesso e com profundida, para que todas tenham o conhecimento do que é violência contra mulher.</h5>
+                            <h5 className="cor header col s12 light">O desejo da transformação.</h5>
                         </div>
-                        <br></br>
-                    </div>
-                </div>
-                <div className="img-background1-container">
-                    <img src={background1}/>
-                </div>
-            </div>
+                    </div> 
+            
+            </div></div>
 
             <div className="container">
                 <div className="section">
@@ -31,8 +30,8 @@ const Home = () => {
                     <div className="row">
                         <div className="col s12 m4">
                             <div className="icon-block">
-                                <h2 className="center brown-text"><i className="material-icons">flash_on</i></h2>
-                                <h5 className="center">Empoderamentp</h5>
+                                <h2 className="center brown-text"><img className='tam-logo' src={empoderamento} /></h2>
+                                <h5 className="center">Empoderamento</h5>
 
                                 <p className="light">Temos a missão de empodoras as mulheres, para que a conscientização traga mudança de vida.</p>
                             </div>
@@ -40,7 +39,7 @@ const Home = () => {
 
                         <div className="col s12 m4">
                             <div className="icon-block">
-                                <h2 className="center brown-text"><i className="material-icons">group</i></h2>
+                                <h2 className="center brown-text"><img className='tam-logo' src={prevencao} /></h2>
                                 <h5 className="center">Prevenção</h5>
 
                                 <p className="light">Acreditamos que para que entendamos o que é SIM e o que é NÃO, a conscientização é a forma de se viver. Não precisamos passar por qualquer que seja a situação de violencia para mudar nossa mentalidade.</p>
@@ -49,10 +48,10 @@ const Home = () => {
 
                         <div className="col s12 m4">
                             <div className="icon-block">
-                                <h2 className="center brown-text"><i className="material-icons">settings</i></h2>
-                                <h5 className="center">Easy to work with</h5>
+                                <h2 className="center brown-text"><img className='tam-logo' src={informacao} /></h2>
+                                <h5 className="center">Inforamção</h5>
 
-                                <p className="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                                <p className="light">Nosso objetivo é trazer informação de facil acesso e com profundida, para que todas tenham o conhecimento do que é violência contra mulher.</p>
                             </div>
                         </div>
                     </div>
@@ -61,16 +60,11 @@ const Home = () => {
             </div>
 
 
-            <div className="parallax-container valign-wrapper">
-                <div className="section no-pad-bot">
-                    <div className="container">
-                        <div className="row center">
-                            <h5 className="header col s12 light">A trasformação começa de dentro para fora.</h5>
-                        </div>
-                    </div>
-                </div>
-                <img src={background2} alt="Unsplashed background img 2" />
-            </div>
+            <div className="carousel-inner">
+        <div className="carousel-item active">
+        <img src={background1} className="d-block w-100 img-principal"/></div></div>
+
+           
 
             <div className="container">
                 <div className="section">
@@ -87,15 +81,15 @@ const Home = () => {
             </div>
 
 
-            <div className="parallax-container valign-wrapper">
-                <div className="section no-pad-bot">
-                    <div className="container">
-                        <div className="row center">
-                            <h5 className="header col s12 light">Seja a mudança que você espera no mundo.</h5>
+            <div className="color-bg-1 parallax-container valign-wrapper " style={{backgroundImage: "url(" + background3 + ")", backgroundSize:'cover'}}>
+                <div className="section no-pad-bot w-100 text-center" >
+                    <div className="container w-100 text-center">
+                        <div className="row center w-100 text-center">
+                            <h5 className="header color w-100 text-center col s12 light">Seja a mudança que você espera no mundo.</h5>
                         </div>
                     </div>
                 </div>
-                <img src={background3} alt="Unsplashed background img 3" />
+                
             </div>
             <Rodape />
         </>

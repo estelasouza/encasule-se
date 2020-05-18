@@ -14,10 +14,7 @@ const Banner = () => {
 
         <div class="row center-xs">
 
-        <div class="col-xs-6">
-            <div class="box">
-            <h1 className='letra'> Encasule-se </h1>
-            </div></div></div>
+       </div>
             
             
 

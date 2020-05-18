@@ -7,8 +7,13 @@ import './forms'
 import Tabela from './forms';
 import TabelaRaca from './forms-raca'
 import TabelaSexo from './forms-orientacao-sexual'
+import { useHistory } from "react-router-dom"
+
 
 const Quiz = () => {
+
+    const history = useHistory()
+
     return (
         <>
             <NavBar />
@@ -67,7 +72,7 @@ const Quiz = () => {
             <div className="row center-xs">
                 <div className="col-xs-6">
                     <div className="box altura-bt">
-                        <button className='center-align purple lighten-2  btn-large '> Enviar </button>
+                        <button className='center-align purple lighten-2  btn-large ' onClick={() => history.push("/")}> Enviar </button>
 
                     </div>
                 </div>
