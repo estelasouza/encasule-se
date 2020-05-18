@@ -33,7 +33,7 @@ const Home = () => {
                                 <h2 className="center brown-text"><img className='tam-logo' src={empoderamento} /></h2>
                                 <h5 className="center">Empoderamento</h5>
 
-                                <p className="light">Temos a missão de empodoras as mulheres, para que a conscientização traga mudança de vida.</p>
+                                <p className="light">Temos a missão de empoderar as mulheres, para que a conscientização traga mudança de vida.</p>
                             </div>
                         </div>
 
@@ -42,7 +42,7 @@ const Home = () => {
                                 <h2 className="center brown-text"><img className='tam-logo' src={prevencao} /></h2>
                                 <h5 className="center">Prevenção</h5>
 
-                                <p className="light">Acreditamos que para que entendamos o que é SIM e o que é NÃO, a conscientização é a forma de se viver. Não precisamos passar por qualquer que seja a situação de violencia para mudar nossa mentalidade.</p>
+                                <p className="light">Acreditamos que para que entendamos o que é SIM e o que é NÃO, a conscientização é a forma de se viver. Não precisamos passar por qualquer que seja a situação de violência para mudar nossa mentalidade.</p>
                             </div>
                         </div>
 
@@ -51,7 +51,7 @@ const Home = () => {
                                 <h2 className="center brown-text"><img className='tam-logo' src={informacao} /></h2>
                                 <h5 className="center">Inforamção</h5>
 
-                                <p className="light">Nosso objetivo é trazer informação de facil acesso e com profundida, para que todas tenham o conhecimento do que é violência contra mulher.</p>
+                                <p className="light">Nosso objetivo é trazer informação de facíl acesso e com profundida, para que todas tenham o conhecimento do que é violência contra mulher.</p>
                             </div>
                         </div>
                     </div>
