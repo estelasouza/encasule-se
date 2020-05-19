@@ -33,7 +33,7 @@ const Contato = () => {
                 <b></b>
                 <div class="row">
     
-                <a href='#' target='_blank'><img className='img-fluid' src={forms} /></a>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSeeF8XDd2u0oxVivedWhlaFNHnk3IZ2dY8Q6Xj_FycUH3-5Yg/viewform' target='_blank'><img className='img-fluid' src={forms} /></a>
                 </div>
                             </div>
             <div>
