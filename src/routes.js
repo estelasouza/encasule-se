@@ -10,7 +10,8 @@ const Contato = React.lazy(() => import('./pages/contato'))
 
 // fallback = posso colocar gifs girando 
 const Routes = props => (
-    <Suspense fallback="Loagind..."> 
+    <Suspense fallback="Loading..." > 
+    
         <Switch >
             <Route exact path="/" component={routerProps => <Home {...routerProps} />} ></Route>
             <Route exact path="/quiz" component={routerProps => <Quiz {...routerProps} />}></Route>
