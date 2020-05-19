@@ -7,28 +7,24 @@ const NavBar = () => {
     const history = useHistory()
 
     return (
-        <div >
-            <nav className='cor-bg'>
-                <div className="cor-bg nav-wrapper container">
-                    <a className="brand-logo" onClick={() => history.push("/")><img className='logo-nav' src={logo}/></a>
-                    <a href="#" data-target="mobile-demo" className="sidenav-trigger "><i className="material-icons">menu</i></a>
-                    <ul className="right hide-on-med-and-down">
+        <div className='navbar-fixed'>
+            <nav className='cor-bg '>
+                <div className="cor-bg nav-wrapper fixed-top container">
+                    <a className="brand-logo left" onClick={() => history.push("/")}><img className='logo-nav' src={logo}/></a>
+                    <ul className="right ">
                         <li><a onClick={() => history.push("/")}>Projeto</a></li>
                         <li> <a onClick={() => history.push("/quem-somos")}>Quem somos</a></li>
-                        <li> <a onClick={() => history.push("/fanzini")}>Fanzini</a></li>
-                        <li><a onClick={() => history.push("/quiz")}>Quiz</a></li>
+
                         <li><a onClick={() => history.push("/contato")}>Contatos</a></li>
                     </ul>
                 </div>
+               
+    
             </nav>
-        
-            <ul class="sidenav cor-bg" id="mobile-demo">
-            <li><a onClick={() => history.push("/")}>Projeto</a></li>
-            <li><a onClick={() => history.push("/quem-somos")} >Quem somos</a></li>
-            <li> <a onClick={() => history.push("/fanzini")}>Fanzini</a></li>
-            <li><a onClick={() => history.push("/quiz")}>Quiz</a></li>
-            <li><a onClick={() => history.push("/contato")}>Contatos</a></li>
-        </ul>
+      
+             
+           
+       
         </div>
        
 

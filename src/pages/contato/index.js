@@ -11,6 +11,7 @@ import Banner from '../navbar/banner'
 import './style-contato.css'
 import '../style-geral.css'
 import face from '../assets/img-contato/facebook.png'
+import forms from '../assets/img-contato/forms.png'
 
 import { useHistory } from "react-router-dom"
 
@@ -30,30 +31,11 @@ const Contato = () => {
                 <p className='centraliza-tex paragrafo-comum'>Vem responder o forms, assim entraremos em contato com você ! </p>
 
                 <b></b>
-                <form className='container'>
-
-                    <label htmlFor="nome" >Nome</label>
-                    <input />
-
-                    <label htmlFor="telefone" >Telefone</label>
-                    <input />
-
-
-                    <label htmlFor="Email" >Email</label>
-                    <input />
-                    <label htmlFor="habilidade" >Contenos como você pode nos ajudar </label>
-                    <input />
-                    <div className="row center-xs">
-                        <div className="col-xs-6">
-                            <div className="box altura-bt">
-                                <button className=' centraliza-tex centraliza-bttwaves-effect purple lighten-2  btn-large ' type="button" onClick={() => history.push("/")} >Enviar</button>
-
+                <div class="row">
+    
+                <a href='#' target='_blank'><img className='img-fluid' src={forms} /></a>
+                </div>
                             </div>
-                        </div>
-                    </div>
-                </form>
-
-            </div>
             <div>
                 <h2 className='centraliza-h2'>Onde nos encontrar </h2>
                 <div className=" container">
@@ -64,12 +46,12 @@ const Contato = () => {
                         </div>
                         <div className='col'>
 
-                        <a href='https://www.instagram.com/encasule.se/' target='_blank'> <img className='tamanho-img' src={youtube} /> </a>
+                        <a href='https://www.youtube.com/channel/UCA-kLvov74_hyIuTVl83zSw?view_as=subscriber' target='_blank'> <img className='tamanho-img' src={youtube} /> </a>
 
                         </div>
                         <div className='col'>
 
-                        <a href='https://www.instagram.com/encasule.se/' target='_blank'>  <img className='tamanho-img' src={face} />
+                        <a href='https://www.facebook.com/encasule.encasule.9' target='_blank'>  <img className='tamanho-img' src={face} />
                         </a></div>
                     </div> </div></div>
 

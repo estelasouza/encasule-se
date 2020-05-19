@@ -1,0 +1,22 @@
+                <form className='container'>
+
+                    <label htmlFor="nome" >Nome</label>
+                    <input />
+
+                    <label htmlFor="telefone" >Telefone</label>
+                    <input />
+
+
+                    <label htmlFor="Email" >Email</label>
+                    <input />
+                    <label htmlFor="habilidade" >Contenos como você pode nos ajudar </label>
+                    <input />
+                    <div className="row center-xs">
+                        <div className="col-xs-6">
+                            <div className="box altura-bt">
+                                <button className=' centraliza-tex centraliza-bttwaves-effect purple lighten-2  btn-large ' type="button" onClick={() => history.push("/")} >Enviar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>

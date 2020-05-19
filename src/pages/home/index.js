@@ -51,7 +51,7 @@ const Home = () => {
                                 <h2 className="center brown-text"><img className='tam-logo' src={informacao} /></h2>
                                 <h5 className="center">Inforamção</h5>
 
-                                <p className="light">Nosso objetivo é trazer informação de facíl acesso e com profundida, para que todas tenham o conhecimento do que é violência contra mulher.</p>
+                                <p className="light">Nosso objetivo é trazer informação de facíl acesso e com profundidade, para que todas tenham o conhecimento do que é violência contra mulher.</p>
                             </div>
                         </div>
                     </div>
