@@ -1,5 +1,6 @@
 import React, {Suspense} from 'react'
 import {Route ,Switch } from "react-router-dom"
+import Spiner from './pages/Spiner/index.js'
  
 const Home = React.lazy(() => import('./pages/home'))
 const Quiz = React.lazy(() => import('./pages/quiz'))
@@ -10,7 +11,7 @@ const Contato = React.lazy(() => import('./pages/contato'))
 
 // fallback = posso colocar gifs girando 
 const Routes = props => (
-    <Suspense fallback="Loading..." > 
+    <Suspense fallback={<Spiner />} sr-only> 
     
         <Switch >
             <Route exact path="/" component={routerProps => <Home {...routerProps} />} ></Route>

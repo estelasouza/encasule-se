@@ -33,7 +33,7 @@ const Home = () => {
                                 <h2 className="center brown-text"><img className='tam-logo' src={empoderamento} /></h2>
                                 <h5 className="center">Empoderamento</h5>
 
-                                <p className="light">Temos a missão de empoderar as mulheres, para que a conscientização traga mudança de vida.</p>
+                                <p className="light center">Temos a missão de empoderar as mulheres, para que a conscientização traga mudança de vida.</p>
                             </div>
                         </div>
 
@@ -42,16 +42,16 @@ const Home = () => {
                                 <h2 className="center brown-text"><img className='tam-logo' src={prevencao} /></h2>
                                 <h5 className="center">Prevenção</h5>
 
-                                <p className="light">Acreditamos que para que entendamos o que é SIM e o que é NÃO, a conscientização é a forma de se viver. Não precisamos passar por qualquer que seja a situação de violência para mudar nossa mentalidade.</p>
+                                <p className="light center">Acreditamos que para que entendamos o que é SIM e o que é NÃO, a conscientização é a forma de se viver. Não precisamos passar por qualquer que seja a situação de violência para mudar nossa mentalidade.</p>
                             </div>
                         </div>
 
                         <div className="col s12 m4">
                             <div className="icon-block">
                                 <h2 className="center brown-text"><img className='tam-logo' src={informacao} /></h2>
-                                <h5 className="center">Inforamção</h5>
+                                <h5 className="center">Informação</h5>
 
-                                <p className="light">Nosso objetivo é trazer informação de facíl acesso e com profundidade, para que todas tenham o conhecimento do que é violência contra mulher.</p>
+                                <p className="light center">Nosso objetivo é trazer informação de facíl acesso e com profundidade, para que todas tenham o conhecimento do que é violência contra mulher.</p>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const Home = () => {
                         <div className="col s12 center">
                             <h3><i className="mdi-content-send brown-text"></i></h3>
                             <h4>Encasule-se</h4>
-                            <p className="left-align light">Acreditamos que o impacto social acontece de dentro para fora, quando mudamos nossas atitudes, mudamos o mundo. O nome "encasule-se" nos chama a viver assim como as borboletas a fase mais importante da vida : a fase de tranformação, sendo essa interna, onde quando menor se espera estamos voando na liberdade, assim como as borborletas;</p>
+                            <p className="left-align light center">O nome "encasule-se" nos chama a viver assim como as borboletas a fase mais importante da vida : a fase de tranformação, sendo essa interna, onde quando menos se espera estamos voando na liberdade, assim como as borborletas;</p>
                         </div>
                     </div>
 
