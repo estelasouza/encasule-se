@@ -33,7 +33,7 @@ const Home = () => {
                                 <h2 className="center brown-text"><img className='tam-logo' src={empoderamento} /></h2>
                                 <h5 className="center">Empoderamento</h5>
 
-                                <p className="light center">Temos a missão de empoderar as mulheres, para que a conscientização traga mudança de vida.</p>
+                                <p className="light center">Temos a missão de empoderar as mulheres, para que a conscientização amplie a visão do ser mulher na sociedade. </p>
                             </div>
                         </div>
 
@@ -42,7 +42,7 @@ const Home = () => {
                                 <h2 className="center brown-text"><img className='tam-logo' src={prevencao} /></h2>
                                 <h5 className="center">Prevenção</h5>
 
-                                <p className="light center">Acreditamos que para que entendamos o que é SIM e o que é NÃO, a conscientização é a forma de se viver. Não precisamos passar por qualquer que seja a situação de violência para mudar nossa mentalidade.</p>
+                                <p className="light center">Através da informação e do conhecimento, contribuímos para o empoderamento feminino. Acreditamos que a prevenção é um dos caminhos para a diminuição da violência contra mulher.</p>
                             </div>
                         </div>
 
@@ -51,7 +51,7 @@ const Home = () => {
                                 <h2 className="center brown-text"><img className='tam-logo' src={informacao} /></h2>
                                 <h5 className="center">Informação</h5>
 
-                                <p className="light center">Nosso objetivo é trazer informação de facíl acesso e com profundidade, para que todas tenham o conhecimento do que é violência contra mulher.</p>
+                                <p className="light center">Nosso objetivo é trazer informações acessíveis, profundas e humanizadas, desmitificando a violência contra mulher.</p>
                             </div>
                         </div>
                     </div>
