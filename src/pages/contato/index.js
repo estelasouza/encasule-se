@@ -31,10 +31,10 @@ const Contato = () => {
                 <p className='centraliza-tex paragrafo-comum'>Vem responder o forms, assim entraremos em contato com você ! </p>
 
                 <b></b>
-                <div class="row">
+                <div class="row centraliza-forms">
     
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSeeF8XDd2u0oxVivedWhlaFNHnk3IZ2dY8Q6Xj_FycUH3-5Yg/viewform' target='_blank'><img className='img-fluid' src={forms} /></a>
-                </div>
+                <iframe  src="https://docs.google.com/forms/d/e/1FAIpQLSeeF8XDd2u0oxVivedWhlaFNHnk3IZ2dY8Q6Xj_FycUH3-5Yg/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                            </div>
                             </div>
             <div>
                 <h2 className='centraliza-h2'>Onde nos encontrar </h2>

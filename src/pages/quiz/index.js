@@ -8,6 +8,7 @@ import Tabela from './forms';
 import TabelaRaca from './forms-raca'
 import TabelaSexo from './forms-orientacao-sexual'
 import { useHistory } from "react-router-dom"
+import './style-quiz.css'
 
 
 const Quiz = () => {
@@ -23,7 +24,7 @@ const Quiz = () => {
             </div>
             <div>
 
-                <ul className='list-group container'>
+                {/* <ul className='list-group container'>
                     <li className='centraliza-tex list-group-item '>
                         <p>Qual sua raça ?</p>
                         <TabelaRaca />
@@ -34,8 +35,8 @@ const Quiz = () => {
                         <TabelaSexo />
                     </li>
                     <li className='centraliza-tex list-group-item '>
-                        <p> Já esteve em um relacionamento onde a outra pessoa tenta ou tentava controlar seus atos ? </p>
-                        <p>(exemplo : monitorar onde você está ou com quem está falando.)</p>
+                        <p> Já esteve em um relacionamento onde a outra pessoa tenta ou tentava controlar seus atos ? 
+                        (exemplo : monitorar onde você está ou com quem está falando.)</p>
                         <Tabela />
                     </li>
                     <li className='centraliza-tex list-group-item '>
@@ -49,8 +50,8 @@ const Quiz = () => {
                     </li>
 
                     <li className='centraliza-tex list-group-item '>
-                        <p>Já foi fisicamente agredida pela pessoa com quem se relaciona ou já se relacionou? </p>
-                        <p>(Ex. empurrão, chute, soco)</p>
+                        <p>Já foi fisicamente agredida pela pessoa com quem se relaciona ou já se relacionou?
+                        (Ex. empurrão, chute, soco)</p>
                         <Tabela />
                     </li>
                     <li className='centraliza-tex list-group-item'>
@@ -60,23 +61,17 @@ const Quiz = () => {
                                 <div class="box">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text">With textarea</span>
                                         </div>
                                         <textarea class="form-control" aria-label="With textarea"></textarea>
                                     </div>
                                 </div></div></div>              </li>
 
-                </ul>
+                </ul> */}
 
             </div>
-            <div className="row center-xs">
-                <div className="col-xs-6">
-                    <div className="box altura-bt">
-                        <button className='center-align purple lighten-2  btn-large ' onClick={() => history.push("/")}> Enviar </button>
-
-                    </div>
-                </div>
-            </div>
+           <div className='centraliza-forms'>
+           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK9fwxE_e5Cn_KUgEYHcPudYO8wXppYzLnPsm_Z-Rho9WgBw/viewform?embedded=true" width="800" height="1800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>            
+           </div>
             <b>
                 <b></b>
             </b>
@@ -94,7 +89,7 @@ const Quiz = () => {
                                 <p className="card-text">A galera da <a>mete a colher </a> está conosco nessa jornada!</p>
                                 <p className='centraliza-tex'> Caso você queira conversar ou precise ser escutada elas estão nessa missão de impacto social conosco</p>
 
-                                <button href="https://www.instagram.com/appmeteacolher/" target='_blank' className="center-align purple lighten-2  btn-large ">Mete a colher</button>
+                                <a href='https://meteacolher.org/' target="_blank"><button target='_blank' className="center-align purple lighten-2  btn-large ">Mete a colher</button></a>
                             </div>
                             <div className="card-footer text-muted">
 

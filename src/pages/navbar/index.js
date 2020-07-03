@@ -13,6 +13,9 @@ const NavBar = () => {
                     <a className="brand-logo left" onClick={() => history.push("/")}><img className='logo-nav' src={logo}/></a>
                     <ul className="right ">
                         <li><a onClick={() => history.push("/")}>Projeto</a></li>
+                        <li> <a onClick={() => history.push("/quiz")}>Quiz</a></li>
+                        {/* <li> <a onClick={() => history.push("/fanzini")}>Fanzini</a></li> */}
+                        
                         <li> <a onClick={() => history.push("/quem-somos")}>Quem somos</a></li>
 
                         <li><a onClick={() => history.push("/contato")}>Contatos</a></li>

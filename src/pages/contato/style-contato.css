@@ -13,3 +13,7 @@
 .centraliza-btt{
     padding: 50%;
 }
+.centraliza-forms{
+    align-items: center;
+    padding: 10%;
+}

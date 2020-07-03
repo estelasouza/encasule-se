@@ -1,17 +1,45 @@
-import React from 'react';
+import React ,{Component}from 'react';
 import Banner from '../navbar/banner'
 import NavBar from '../navbar/index'
 import Rodape from '../rodape/index'
 import '../style-geral.css'
 import img from '../assets/background4.jpg'
-import { useHistory } from "react-router-dom"
 
 
 
-const Fanzini = () => {
-    const history = useHistory()
 
-    return (
+
+class Fanzini extends Component {
+
+    constructor() {
+        super();
+        this.state = {lista : [
+            {
+                nome : 'violência contra mulher',
+                informacao : 'esse fanzini fala o que é violência contra a mulher  '
+            },
+            {
+                nome : 'amizades abusivas',
+                informacao : 'esse fanzini fala o que é amizades abusivas  '
+
+
+            },
+            {
+                nome : 'relacionamento em casa',
+                informacao : 'esse fanzini fala o que é relacionamento em casa  '
+
+
+            },
+            {
+                nome : 'Machismo',
+                informacao : 'esse fanzini fala o que é Machismo  '
+
+
+            }
+        ]};
+    }
+    
+    render() {    return (
 
         <>
             <NavBar />
@@ -23,6 +51,8 @@ const Fanzini = () => {
             </div>
             <div className='container'>
                 <div className='row row-cols-3 '>
+                   { this.state.lista.map(function(zine){
+                       return(
                     <div className="col-xs-12
                 col-sm-8
                 col-md-6
@@ -34,67 +64,26 @@ const Fanzini = () => {
                                 </div>
                                 <div className="card-content">
                                    
-                                                <span className="card-title activator grey-text text-darken-4">Tipos de violência<i className="material-icons right"></i></span>
-                                                <p>Esse é um Fuzinni explicativo, com intuito de conscientização de todas as formas de violencia contra mulher que existe.</p>
+                                                <span className="card-title activator grey-text text-darken-4">{zine.nome}<i className="material-icons right"></i></span>
+                                               <p>{zine.informacao}</p>
                                                 <div class="row center-xs">
                                         <div class="col-xs-6">
                                             <div class="box">
-                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" onClick={() => history.push("/fanzini")}> Baixar</button>
+                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" > Baixar</button>
                                             </div></div></div></div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xs-12
-                col-sm-8
-                col-md-6
-                col-lg-4">
-                        <div className="box">
-                            <div className="card col ">
-                                <div className="card-image waves-effect waves-block waves-light">
-                                    <img className="rounded activator" src={img} />
-                                </div>
-                                <div className="card-content">
-                                    
-                                                <span className="card-title activator grey-text text-darken-4">Tipos de violência<i className="material-icons right"></i></span>
-                                                <p>Esse é um Fuzinni explicativo, com intuito de conscientização de todas as formas de violencia contra mulher que existe.</p>
-                                                <div class="row center-xs">
-                                        <div class="col-xs-6">
-                                            <div class="box">
-                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" onClick={() => history.push("/fanzini")} > Baixar</button>
-                                            </div></div></div></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-xs-12
-                col-sm-8
-                col-md-6
-                col-lg-4">
-                        <div className="box">
-                            <div className="card col ">
-                                <div className="card-image waves-effect waves-block waves-light">
-                                    <img className="rounded activator" src={img} />
-                                </div>
-                                <div className="card-content">
-
-                                
-                                                <span className="card-title activator grey-text text-darken-4">Tipos de violência<i className="material-icons right"></i></span>
-
-                                                <p>Esse é um Fuzinni explicativo, com intuito de conscientização de todas as formas de violencia contra mulher que existe.</p>
-                                                <div class="row center-xs">
-                                        <div class="col-xs-6">
-                                            <div class="box">
-                                                <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" onClick={() => history.push("/fanzini")}> Baixar</button>
-                                            </div> </div></div></div>
-                            </div>
-                        </div>
-                    </div>
+  
+                   )
+                })
+                };
                 </div>
             </div>
             <Rodape />
         </>
 
     );
-};
+};};
 
 export default Fanzini;
