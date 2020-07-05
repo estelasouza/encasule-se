@@ -88,7 +88,7 @@ const Quiz = () => {
                                 <p className="card-text">A galera da <a>mete a colher </a> está conosco nessa jornada!</p>
                                 <p className='centraliza-tex'> Caso você queira conversar ou precise ser escutada elas estão nessa missão de impacto social conosco</p>
 
-                                <a href='https://meteacolher.org/' target="_blank"><button target='_blank' className="center-align purple lighten-2  btn-large ">Mete a colher</button></a>
+                                <a href="https://meteacolher.org/" target="_blank"><button target='_blank' className="center-align purple lighten-2  btn-large ">Mete a colher</button></a>
                             </div>
                             <div className="card-footer text-muted">
 
