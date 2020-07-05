@@ -12,7 +12,7 @@ const Banner = () => {
         <div className="carousel-item active">
         <img src={background} className="d-block w-100 img-principal"/>
 
-        <div class="row center-xs">
+        <div className="row center-xs">
 
        </div>
             

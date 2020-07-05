@@ -11,7 +11,6 @@ import Banner from '../navbar/banner'
 import './style-contato.css'
 import '../style-geral.css'
 import face from '../assets/img-contato/facebook.png'
-import forms from '../assets/img-contato/forms.png'
 
 import { useHistory } from "react-router-dom"
 
@@ -31,10 +30,11 @@ const Contato = () => {
                 <p className='centraliza-tex paragrafo-comum'>Vem responder o forms, assim entraremos em contato com você ! </p>
 
                 <b></b>
-                <div class="row centraliza-forms">
-    
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeF8XDd2u0oxVivedWhlaFNHnk3IZ2dY8Q6Xj_FycUH3-5Yg/viewform?embedded=true" width="800" height="1050" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>                            </div>
-                            </div>
+                <div className="row centraliza-forms">
+
+                    <a><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeF8XDd2u0oxVivedWhlaFNHnk3IZ2dY8Q6Xj_FycUH3-5Yg/viewform?embedded=true" width="800" height="1050" frameBorder="0" marginHeight="0" marginWidth="0">Carregando…</iframe>           </a>                 </div>
+            </div>
+
             <div>
                 <h2 className='centraliza-h2'>Onde nos encontrar </h2>
                 <div className=" container">
@@ -45,35 +45,36 @@ const Contato = () => {
                         </div>
                         <div className='col'>
 
-                        <a href='https://www.youtube.com/channel/UCA-kLvov74_hyIuTVl83zSw?view_as=subscriber' target='_blank'> <img className='tamanho-img' src={youtube} /> </a>
+                            <a href='https://www.youtube.com/channel/UCA-kLvov74_hyIuTVl83zSw?view_as=subscriber' target='_blank'> <img className='tamanho-img' src={youtube} /> </a>
 
                         </div>
                         <div className='col'>
 
-                        <a href='https://www.facebook.com/encasule.encasule.9' target='_blank'>  <img className='tamanho-img' src={face} />
-                        </a></div>
-                    </div> </div></div>
+                            <a href='https://www.facebook.com/encasule.encasule.9' target='_blank'>  <img className='tamanho-img' src={face} />
+                            </a></div>
+                    </div> </div>
+            </div>
 
 
 
             <h2 className='centraliza-h2'>Quem nos apoia </h2>
             <div className='container'>
-            <div className="container row center-xs">
-                <div className="col">
-                    <div className="box"> <img className=' tam-img loat-left col' src={portoDigital} /></div></div>
-                <div className="col">
-                    <div className="box">
-                        <img className=' tam-img loat-left col' src={meteColher} />
-                    </div></div>
-                <div className="col">
-                    <div className="box">
-                        <img className=' tam-img loat-left col' src={portoMais} />
-                    </div></div>
-                <div className="col">
-                    <div className="box">
-                        <img className=' tam-img loat-left col' src={minas} />
-                    </div></div>
-            </div></div>
+                <div className="container row center-xs">
+                    <div className="col">
+                        <div className="box"> <img className=' tam-img loat-left col' src={portoDigital} /></div></div>
+                    <div className="col">
+                        <div className="box">
+                            <img className=' tam-img loat-left col' src={meteColher} />
+                        </div></div>
+                    <div className="col">
+                        <div className="box">
+                            <img className=' tam-img loat-left col' src={portoMais} />
+                        </div></div>
+                    <div className="col">
+                        <div className="box">
+                            <img className=' tam-img loat-left col' src={minas} />
+                        </div></div>
+                </div></div>
 
             <Rodape />
         </>

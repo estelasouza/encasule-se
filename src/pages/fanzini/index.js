@@ -66,9 +66,9 @@ class Fanzini extends Component {
                                    
                                                 <span className="card-title activator grey-text text-darken-4">{zine.nome}<i className="material-icons right"></i></span>
                                                <p>{zine.informacao}</p>
-                                                <div class="row center-xs">
-                                        <div class="col-xs-6">
-                                            <div class="box">
+                                                <div className="row center-xs">
+                                        <div className="col-xs-6">
+                                            <div className="box">
                                                 <button className=' centraliza-bttwaves-effect purple lighten-2 waves-light btn-large' type="button" > Baixar</button>
                                             </div></div></div></div>
                             </div>

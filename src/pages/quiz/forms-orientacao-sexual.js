@@ -4,9 +4,9 @@ import React from 'react';
 const TabelaSexo = () => {
     return (
         
-        <div class="row center-xs">
-            <div class="col-xs-2">
-            <div class="box"></div>
+        <div className="row center-xs">
+            <div className="col-xs-2">
+            <div className="box"></div>
         <form>
         <div className="form-row align-items-center">
           <div className="col-auto my-1">

@@ -3,9 +3,9 @@ import React from 'react';
 
 const TabelaRaca = () => {
     return (
-        <div class="row center-xs">
-            <div class="col-xs-2">
-            <div class="box">
+        <div className="row center-xs">
+            <div className="col-xs-2">
+            <div className="box">
             
                 <form className='container'>
                 <div className="form-row align-items-center">

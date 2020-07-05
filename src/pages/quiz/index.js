@@ -4,9 +4,6 @@ import Banner from '../navbar/banner'
 import Rodape from '../rodape/index'
 import '../style-geral.css'
 import './forms'
-import Tabela from './forms';
-import TabelaRaca from './forms-raca'
-import TabelaSexo from './forms-orientacao-sexual'
 import { useHistory } from "react-router-dom"
 import './style-quiz.css'
 
@@ -56,31 +53,33 @@ const Quiz = () => {
                     </li>
                     <li className='centraliza-tex list-group-item'>
                         <p > Deixe aqui seu elogio, critica ou desabafo  </p>
-                        <div class="row center-xs">
-                            <div class="col-xs-6">
-                                <div class="box">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
+                        <div className="row center-xs">
+                            <div className="col-xs-6">
+                                <div className="box">
+                                    <div className="input-group">
+                                        <div className="input-group-prepend">
                                         </div>
-                                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                                        <textarea className="form-control" aria-label="With textarea"></textarea>
                                     </div>
                                 </div></div></div>              </li>
 
                 </ul> */}
 
             </div>
-           <div className='centraliza-forms'>
-           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK9fwxE_e5Cn_KUgEYHcPudYO8wXppYzLnPsm_Z-Rho9WgBw/viewform?embedded=true" width="800" height="1800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>            
-           </div>
+            <div className='centraliza-forms'>
+                <a>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK9fwxE_e5Cn_KUgEYHcPudYO8wXppYzLnPsm_Z-Rho9WgBw/viewform?embedded=true" width="800" height="1800" frameorder="0" marginHeight="0" marginWidth="0">Carregando…</iframe>
+                </a>
+            </div>
             <b>
                 <b></b>
             </b>
 
             <h4 className='centraliza-tex'>Você terminou o quiz, espero que tenha sido uma boa experiencia </h4>
             <b></b><b></b>
-            <div class="row center-xs">
-                <div class="col-xs-6">
-                    <div class="box">
+            <div className="row center-xs">
+                <div className="col-xs-6">
+                    <div className="box">
                         <div className="card text-center">
                             <div className="card-header">
                             </div>
