@@ -18,6 +18,7 @@ const Quiz = () => {
             <Banner />
             <div>
                 <h2 className='centraliza-h2'> Vem conhecer um pouco do nosso impacto </h2>
+                <p className='centraliza-tex'>Esse forms é 100% anônimo </p>
             </div>
             <div>
 
@@ -68,14 +69,16 @@ const Quiz = () => {
             </div>
             <div className='centraliza-forms'>
                 <a>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK9fwxE_e5Cn_KUgEYHcPudYO8wXppYzLnPsm_Z-Rho9WgBw/viewform?embedded=true" width="800" height="1800" frameorder="0" marginHeight="0" marginWidth="0">Carregando…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK9fwxE_e5Cn_KUgEYHcPudYO8wXppYzLnPsm_Z-Rho9WgBw/viewform?embedded=true" width="800" height="1850" frameorder="0" marginHeight="0" marginWidth="0">Carregando…</iframe>
                 </a>
             </div>
             <b>
                 <b></b>
             </b>
 
-            <h4 className='centraliza-tex'>Você terminou o quiz, espero que tenha sido uma boa experiencia </h4>
+            <h4 className='centraliza-tex'>Você terminou o quiz, espero que tenha sido uma boa experiência </h4>
+            <p className='centraliza-tex'> Se você gostou, chama tuas amigas para também responder esse forms, nos ajudará muito ! </p>
+
             <b></b><b></b>
             <div className="row center-xs">
                 <div className="col-xs-6">
